@@ -1,0 +1,49 @@
+.content-section {
+    padding: 100px 0;
+}
+
+.content-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    margin-bottom: 30px;
+}
+
+.content-section li {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+@media(max-width: 767px) {
+    .content-section {
+        padding: 50px 0
+    }
+
+    .content-section h2 {
+        margin-bottom: 5px;
+    }
+
+    .content-section p {
+        margin-bottom: 20px;
+    }
+
+    .banner-section img {
+        height: 300px;
+        -o-object-fit: cover;
+           object-fit: cover;
+        width: 100%;
+    }
+}
+
+@media(max-width: 480px) {
+    .content-section {
+        padding: 30px 0
+    }
+
+    .content-section h2 {
+        font-size: 30px;
+    }
+
+}
